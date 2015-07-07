@@ -7,19 +7,7 @@ import org.junit.Test;
 
 public class TestSecondMax {
 
-	/*public static void main(String[] args) {
-		System.out.println(findSecondMaxIntVar1(new int[] {1, 2, 3, 4, 5}));
-		System.out.println(findSecondMaxIntVar1(new int[] {1, 6, 6, 4, 5}));
-		System.out.println(findSecondMaxIntVar1(new int[] {-1, 6, -6, 4, 5}));
-		System.out.println(findSecondMaxIntVar1(new int[] {Integer.MIN_VALUE, 6, -6, Integer.MAX_VALUE, 5}));
-		System.out.println(findSecondMaxIntVar1(new int[] {5, 5, 5, 5, 5, 5, 5}));
-		System.out.println(findSecondMaxIntVar1(new int[] {5, 8}));
-		System.out.println(findSecondMaxIntVar1(new int[] {5}));
-		System.out.println(findSecondMaxIntVar1(new int[] {}));
-
-	} // main
-*/	
-	//SecondMax sm = new SecondMax();
+	
 	
 	@Test
 	public void testArray() {
@@ -88,12 +76,5 @@ public class TestSecondMax {
 	}
 	
 	
-	
-	
-	
-	/*public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		new TestSecondMax().testEmptyArray();
-	}*/
 
 }
