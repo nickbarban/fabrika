@@ -76,7 +76,7 @@ public class SecondMax {
 	
 	
 
-	/*public static void main(String[] args) {
+	public static void main(String[] args) {
 		System.out.println(findSecondMaxIntVar1(new int[] {1, 2, 3, 4, 5}));
 		System.out.println(findSecondMaxIntVar1(new int[] {1, 6, 6, 4, 5}));
 		System.out.println(findSecondMaxIntVar1(new int[] {-1, 6, -6, 4, 5}));
@@ -87,5 +87,5 @@ public class SecondMax {
 		System.out.println(findSecondMaxIntVar1(new int[] {}));
 
 	} // main
-*/
+
 }
