@@ -49,6 +49,7 @@ public class SecondMax {
 		return secondMax;		
 	} // findSecondMaxInt
 	
+	
 	/*public static int findSecondMaxIntVar2(int[] arr) {
 		int secondMax = arr[0];
 		if (arr.length > 1){
