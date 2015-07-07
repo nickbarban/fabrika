@@ -7,7 +7,7 @@ import java.util.TreeSet;
 
 public class SecondMax {
 	
-	public static int findSecondMaxIntVar1(int[] arr) {
+	public static int findSecondMaxInt(int[] arr) {
 		boolean allElemetstAreTheSame = false;
 		int secondMax = 0;
 		
@@ -29,7 +29,7 @@ public class SecondMax {
 				throw new IllegalArgumentException("all elements of array are the same");
 			}
 			
-			System.out.println(Arrays.toString(arr));
+			//System.out.println(Arrays.toString(arr));
 			
 			for (int k = 0; k < arr.length - 1; k++) {
 				if (arr[k] != arr[k + 1]) {
@@ -77,7 +77,7 @@ public class SecondMax {
 	
 	
 
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		System.out.println(findSecondMaxIntVar1(new int[] {1, 2, 3, 4, 5}));
 		System.out.println(findSecondMaxIntVar1(new int[] {1, 6, 6, 4, 5}));
 		System.out.println(findSecondMaxIntVar1(new int[] {-1, 6, -6, 4, 5}));
@@ -88,5 +88,5 @@ public class SecondMax {
 		System.out.println(findSecondMaxIntVar1(new int[] {}));
 
 	} // main
-
+*/
 }
